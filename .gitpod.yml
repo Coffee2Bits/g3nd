@@ -1,0 +1,5 @@
+tasks:
+  - name: Install Demo
+    command: go install
+
+image: gitpod/workspace-full-vnc
