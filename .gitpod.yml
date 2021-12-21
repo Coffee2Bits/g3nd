@@ -1,5 +1,7 @@
 tasks:
-  - name: Install Demo
-    command: go install
+  - name: Install & Run Demo
+    init: go install
+    command: g3nd
 
-image: gitpod/workspace-full-vnc
+image: 
+  file: .gitpod.Dockerfile
